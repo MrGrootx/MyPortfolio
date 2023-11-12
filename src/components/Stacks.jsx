@@ -7,6 +7,9 @@ import javascript from "../assets/lanIcons/javascript.png";
 import node from "../assets/lanIcons/node.png";
 import react from "../assets/lanIcons/react.png";
 import tailwind from "../assets/lanIcons/tailwind.png";
+import photoshop from "../assets/lanIcons/photoshop-logo.png";
+import figma from "../assets/lanIcons/figma-logo.png";
+import mongodb from "../assets/lanIcons/mongo-db.png";
 
 const Stacks = () => {
   const stacks = [
@@ -51,6 +54,24 @@ const Stacks = () => {
       src: tailwind,
       title: "TAILWIND CSS",
       style: "shadow-cyan-600",
+    },
+    {
+      id: 8,
+      src: photoshop,
+      title: "PHOTOSHOP",
+      style: "shadow-[#2922FF]",
+    },
+    {
+      id: 9,
+      src: figma,
+      title: "FIGMA",
+      style: "shadow-[#B54800]",
+    },
+    {
+      id: 10,
+      src: mongodb,
+      title: "MONGODB ",
+      style: "shadow-[#087513]",
     },
   ];
 

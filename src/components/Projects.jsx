@@ -8,8 +8,8 @@ import gang from "../assets/projects/gang.png";
 // Icons
 import { RiDownload2Fill } from "react-icons/ri";
 
-const Portfolio = () => {
-  const portfolios = [
+const Projects = () => {
+  const myworks = [
     {
       id: 1,
       name: "Discord Bot",
@@ -55,7 +55,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
-          {portfolios.map(({ id, name, src, link }) => (
+          {myworks.map(({ id, name, src, link }) => (
             <div key={id} className="shadow-sm shadow-gray-500 rounded-lg">
               <img src={src} alt="" className="rounded-md105" />
               <div className="flex justify-center items-center text-center ">
@@ -79,4 +79,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
