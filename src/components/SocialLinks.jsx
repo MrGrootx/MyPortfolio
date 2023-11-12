@@ -2,7 +2,6 @@ import React from "react";
 import {BsDiscord } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { MdOutgoingMail } from "react-icons/md";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
@@ -34,27 +33,16 @@ const SocialLinks = () => {
       ),
       href: "mailto:grootxdev@gmail.com",
     },
-    // {
-    //   id: 4,
-    //   child: (
-    //     <>
-    //       Resume <BsFillPersonLinesFill size={30} />
-    //     </>
-    //   ),
-    //   href: "/resume.pdf",
-    //   style: "rounded-br-md",
-    //   download: true,
-    // },
   ];
 
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 text-[#40F8FF] " +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-700 bg-gray-500 text-[#40F8FF] hover:border-b border-gray-400" +
               " " +
               style
             }
@@ -62,7 +50,6 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full font-semibold "
-              download={download}
               target="_blank"
               rel="noreferrer"
             >

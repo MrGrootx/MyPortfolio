@@ -8,11 +8,8 @@ function Home() {
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold  text-white ">Hey i'am <span className="md:ml-24 text-[#40F8FF]">Abishek</span></h2>
 
-          <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
-            saepe molestias velit similique adipisci atque a omnis, minus cum
-            accusamus blanditiis odio sequi ratione iste neque hic. Eligendi,
-            perspiciatis voluptate!
+          <p className="text-gray-500 py-4 max-w-md ">
+          A  Developer, Tech Enthusiast and good Human Being
           </p>
 
         </div>
