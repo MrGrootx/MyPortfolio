@@ -6,9 +6,6 @@ import Projects from "./components/Projects";
 import Stacks from "./components/Stacks";
 import Contact from "./components/Contact";
 
-
-
-
 function App() {
   return (
     <div>
